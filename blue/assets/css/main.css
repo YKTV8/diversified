@@ -2326,6 +2326,8 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
+				height: 10%;
+				
 			}
 
 		.image.left {
@@ -2333,6 +2335,7 @@ input, select, textarea {
 			margin: 0 1.5rem 1rem 0;
 			top: 0.25rem;
 			max-width: 35%;
+			
 		}
 
 		.image.right {
@@ -4156,7 +4159,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .main > .inner > .content {
-				padding: 3rem 3rem 1rem 3rem ;
+			padding: 3rem 3rem 8rem 3rem ;
 				background-color: #ffffff;
 			}
 
