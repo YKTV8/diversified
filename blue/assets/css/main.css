@@ -1982,8 +1982,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #23b1ec;
-		color: #23b1ec !important;
+		box-shadow: inset 0 0 0 3px #fff;
+		color: #000 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -3481,7 +3481,8 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #13a2dd;
+			/* background-color: #13a2dd; orginal color*/
+			background-color: #2ec5ff;
 			opacity: 0.5;
 		}
 
