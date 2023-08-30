@@ -4853,8 +4853,8 @@ input, select, textarea {
 			}
 
 				#wrapper > .main > .tabs > .titles > .title .extra {
-					font-size: .47em;
-					display:inline-block;
+					font-size: .50rem;
+					display:inline-flex;
 					width: fit-content;
 				}
 
