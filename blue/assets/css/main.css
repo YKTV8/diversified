@@ -3467,6 +3467,7 @@ input, select, textarea {
 	}
 
 		#banner:after {
+			animation: myBanner 5s infinite;
 			-moz-transition: opacity 3s ease-in-out;
 			-webkit-transition: opacity 3s ease-in-out;
 			-ms-transition: opacity 3s ease-in-out;
@@ -3483,9 +3484,25 @@ input, select, textarea {
 			height: 100%;
 			/* background-color: #13a2dd; orginal color*/
 			background-color: #4c82c2;
-			opacity: 0.5;
+			opacity: 0.6;
 		}
-
+		@keyframes myBanner {
+			/* 0% {
+				background-color: #000fff;
+			  } */
+			  /* 25% {
+				background-color: #4d1222;
+			  } */
+			  60% {
+				background-color: #3b3b3b;
+			  }
+			  85% {
+				background-color: #ffffff;
+			  }
+			  100% {
+				background-color: #4c82c2;
+			  }
+		  }
 		#banner video {
 			-moz-object-fit: cover;
 			-webkit-object-fit: cover;
@@ -3520,6 +3537,10 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.75s ease-out, opacity 1.25s ease;
 				-ms-transition: -ms-transform 0.75s ease-out, opacity 1.25s ease;
 				transition: transform 0.75s ease-out, opacity 1.25s ease;
+				/* background-image: url(/images/demo.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				z-index: -1; */
 			}
 
 			#banner .content.secondary {
@@ -4918,6 +4939,7 @@ input, select, textarea {
 				flex-shrink: 1;
 				width: 30%;
 				margin: 0 1rem;
+				text-align: center;
 			}
 
 				#footer > .inner > * > :last-child {
