@@ -154,5 +154,17 @@
 			titleSelector: 'h3',
 			delay: 250
 		});
+// Reviews
+function rotateReviews(){
+	var firstSet = document.getElementById('features');
+	var secondSet = document.getElementById('hiddenfeatures');
+	var thirdSet = document.getElementById('hiddenfeatures1');
 
+	var temp = features.innerHTML;
+	features.innerHTML = hiddenfeatures.innerHTML;
+	hiddenfeatures.innerHTML = hiddenfeatures1.innerHTML;
+	hiddenfeatures1.innerHTML = temp;
+
+}
+setInterval(rotateReviews, 10000);
 })(jQuery);

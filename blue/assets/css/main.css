@@ -71,6 +71,9 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.fields{
+	margin-top: 50px;
+}
 
 /* Basic */
 
@@ -3494,10 +3497,10 @@ input, select, textarea {
 				background-color: #4d1222;
 			  } */
 			  60% {
-				background-color: #3b3b3b;
+				background-color: #4c82f4;
 			  }
 			  85% {
-				background-color: #ffffff;
+				background-color: #4c82e8;
 			  }
 			  100% {
 				background-color: #4c82c2;
@@ -3548,14 +3551,14 @@ input, select, textarea {
 				background-color: rgba(255, 255, 255, 0.85);
 			}
 
-		#banner .features {
+		#banner #features {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
 		}
 
-			#banner .features > section {
+			#banner #features > section {
 				padding: 0 2rem;
 			}
 
@@ -3597,7 +3600,7 @@ input, select, textarea {
 					padding: 3rem 0 1rem 0 ;
 				}
 
-			#banner .features > section {
+			#banner #features > section {
 				padding: 0 1rem;
 			}
 
@@ -3613,7 +3616,7 @@ input, select, textarea {
 					padding: 2.25rem 0 0.25rem 0 ;
 				}
 
-			#banner .features > section {
+			#banner #features > section {
 				padding: 0 0.5rem;
 			}
 
@@ -3629,17 +3632,17 @@ input, select, textarea {
 					padding: 3rem 0 1rem 0 ;
 				}
 
-			#banner .features {
+			#banner #features {
 				display: block;
 			}
 
-				#banner .features > section {
+				#banner #features > section {
 					border-top: solid 1px #eeeeee;
 					margin: 2rem 0 0 0;
 					padding: 2rem 1rem 0 1rem;
 				}
 
-					#banner .features > section:first-child {
+					#banner #features > section:first-child {
 						border-top: 0;
 						margin-top: 0;
 						padding-top: 0;
@@ -4184,7 +4187,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .main > .inner > .content {
-			padding: 3rem 3rem 8rem 3rem ;
+			padding: 3rem 3rem 18rem 3rem ;
 				background-color: #ffffff;
 			}
 
@@ -4716,7 +4719,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .main > .inner > .content {
-				padding: 2rem 2rem 0.1rem 2rem ;
+				padding: 2rem 2rem 18rem 2rem ;
 			}
 
 				#wrapper > .main > .inner > .content > .image.main:first-child {
@@ -4775,7 +4778,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .main > .inner > .content {
-				padding: 2rem 2rem 0.1rem 2rem ;
+				padding: 2rem 2rem 18rem 2rem ;
 			}
 
 				#wrapper > .main > .inner > .content > .image.main:first-child {
@@ -4844,7 +4847,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .main > .inner > .content {
-				padding: 1.5rem 1.5rem 0.1rem 1.5rem ;
+				padding: 1.5rem 1.5rem 18rem 1.5rem ;
 			}
 
 				#wrapper > .main > .inner > .content > .image.main:first-child {
@@ -4914,6 +4917,7 @@ input, select, textarea {
 	#footer {
 		padding: 6rem 0 4rem 0 ;
 		background-color: #ffffff;
+		background-color: #4c82c240;
 	}
 
 		#footer > .inner {
