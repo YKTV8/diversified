@@ -154,7 +154,9 @@
 			titleSelector: 'h3',
 			delay: 250
 		});
-// Reviews
+// Reviews 
+// **  rotateReviews is used on the index.html only for the cycling of the reviews given from google yelp or facebook. 
+// **  rotate is set to rotate thru every 10 secs without nav options. 
 function rotateReviews(){
 	var firstSet = document.getElementById('features');
 	var secondSet = document.getElementById('hiddenfeatures');

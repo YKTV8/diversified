@@ -191,7 +191,7 @@
 											<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
 										</li>
 										<li>
-											<h4>Magna accumsan</h4>
+											<h4>Execution</h4>
 											<p>Lorem in sem quis dui placerat ornare tra sed etiam veroeros consequat.</p>
 										</li>
 									</ul>
@@ -202,22 +202,22 @@
 								<div class="spotlight">
 									<ul>
 										<li>
-											<h4>Neque veroeros</h4>
+											<h4>Home Flips</h4>
 											<p>Sed adipiscing ornare risus. Morbi lorem lentesque egestas sem consequat.</p>
 										</li>
 										<li>
-											<h4>Quis portitor</h4>
+											<h4>Remodels</h4>
 											<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
 										</li>
 									</ul>
 									<span class="image"><img src="images/measure.jpg" alt="" /></span>
 									<ul>
 										<li>
-											<h4>Magna accumsan</h4>
+											<h4>Room Additions</h4>
 											<p>Lorem in sem quis dui placerat ornare tra sed etiam veroeros consequat.</p>
 										</li>
 										<li>
-											<h4>Erat aliquam</h4>
+											<h4>Modern Upgrades</h4>
 											<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
 										</li>
 									</ul>
@@ -267,7 +267,7 @@
 									<article>
 										<a href="#" class="image"><img src="images/utilities.jpg" alt="" /></a>
 										<div class="content">
-											<h3>Utilities</h3>
+											<h3>Dry Utilities</h3>
 											<p>Utilities work involves installing, maintaining, and repairing essential infrastructure like water, gas, electricity, and telecommunications to ensure community services.</p>
 											<ul class="actions">
 												<li><a href="utilities.html" class="button">More</a></li>
@@ -279,7 +279,7 @@
 									<article>
 										<a href="#" class="image"><img src="images/watersewer.jpg" alt="" /></a>
 										<div class="content">
-											<h3>Water / Sewer</h3>
+											<h3>Wet Utilities</h3>
 											<p>Water/sewer work encompasses the installation, maintenance, and repair of underground pipelines and systems for clean water supply and wastewater disposal.</p>
 											<ul class="actions">
 												<li><a href="sewerwaterstorm.html" class="button">More</a></li>
@@ -293,6 +293,38 @@
 
 				<!-- Footer -->
 				<footer id="footer">
+				<!-- hidden submit form unless in viewport 981px or less -- mobile view -->
+				<form method="post-hidden" style="display: none;" action="#">
+					<div class="fields">
+						<div class="field">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<!-- Break -->
+						<br>
+						<div class="col-12">
+							<select name="demo-category" id="demo-category">
+								<option value="">- Category -</option>
+								<option value="1">Renovations</option>
+								<option value="1">Public works</option>
+								<option value="1">Quotes/Estimates</option>
+								<option value="1">Reviews</option>
+							</select>
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+				</form>
+				<!-- end -->
 					<div class="inner">
 						<ul class="contact">
 							<h2 class="major"><img src="./images/400dpiLogo.jpg" height="200" width="250"></h2>
