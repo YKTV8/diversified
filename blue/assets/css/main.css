@@ -2990,12 +2990,12 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+		
 			.posts {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
-				display: flex;
+				display: none;
 				-moz-flex-wrap: wrap;
 				-webkit-flex-wrap: wrap;
 				-ms-flex-wrap: wrap;
@@ -3082,7 +3082,7 @@ input, select, textarea {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
-				display: flex;
+				display: none;
 				-moz-flex-wrap: wrap;
 				-webkit-flex-wrap: wrap;
 				-ms-flex-wrap: wrap;
@@ -4919,7 +4919,10 @@ input, select, textarea {
 		background-color: #ffffff;
 		background-color: #4c82c240;
 	}
-
+	#hiddenform .fields{
+		display: none;
+		padding: 2rem;
+	}
 		#footer > .inner {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -4977,7 +4980,10 @@ input, select, textarea {
 				#footer .copyright {
 					margin-top: 3rem;
 				}
-
+				#hiddenform .fields{
+					display: none;
+					padding: 2rem;
+				}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4987,6 +4993,12 @@ input, select, textarea {
 				text-align: center;
 			}
 
+				#hiddenform .fields{
+					display: block;	
+				}
+				.fields, .ul.actions{
+					display: none;
+				}
 				#footer > .inner {
 					-moz-flex-wrap: wrap;
 					-webkit-flex-wrap: wrap;

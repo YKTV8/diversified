@@ -157,16 +157,16 @@
 // Reviews 
 // **  rotateReviews is used on the index.html only for the cycling of the reviews given from google yelp or facebook. 
 // **  rotate is set to rotate thru every 10 secs without nav options. 
-// function rotateReviews(){
-// 	var firstSet = document.getElementById('features');
-// 	var secondSet = document.getElementById('hiddenfeatures');
-// 	var thirdSet = document.getElementById('hiddenfeatures1');
+function rotateReviews(){
+	var firstSet = document.getElementById('features');
+	var secondSet = document.getElementById('hiddenfeatures');
+	var thirdSet = document.getElementById('hiddenfeatures1');
 
-// 	var temp = features.innerHTML;
-// 	features.innerHTML = hiddenfeatures.innerHTML;
-// 	hiddenfeatures.innerHTML = hiddenfeatures1.innerHTML;
-// 	hiddenfeatures1.innerHTML = temp;
+	var temp = features.innerHTML;
+	features.innerHTML = hiddenfeatures.innerHTML;
+	hiddenfeatures.innerHTML = hiddenfeatures1.innerHTML;
+	hiddenfeatures1.innerHTML = temp;
 
-// }
-// setInterval(rotateReviews, 10000);
+}
+setInterval(rotateReviews, 10000);
 })(jQuery);

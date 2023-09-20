@@ -294,37 +294,43 @@
 				<!-- Footer -->
 				<footer id="footer">
 				<!-- hidden submit form unless in viewport 981px or less -- mobile view -->
-				<form method="post-hidden" style="display: none;" action="#">
-					<div class="fields">
-						<div class="field">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
+				<div id="hiddenform">
+					<form method="post-hidden" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" />
+							</div>
+							<!-- Break -->
+							<br>
+							<div class="col-12">
+								<select name="demo-category" id="demo-category">
+									<option value="">- Category -</option>
+									<option value="1">Renovations</option>
+									<option value="1">Public works</option>
+									<option value="1">Quotes/Estimates</option>
+									<option value="1">Reviews</option>
+								</select>
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4"></textarea>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
 						</div>
-						<div class="field">
-							<label for="email">Email</label>
-							<input type="email" name="email" id="email" />
-						</div>
-						<!-- Break -->
-						<br>
-						<div class="col-12">
-							<select name="demo-category" id="demo-category">
-								<option value="">- Category -</option>
-								<option value="1">Renovations</option>
-								<option value="1">Public works</option>
-								<option value="1">Quotes/Estimates</option>
-								<option value="1">Reviews</option>
-							</select>
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="4"></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
-				</form>
-				<!-- end -->
+						<!-- <ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul> -->
+					</form>
+					<!-- end -->
+				</div>
+				
 					<div class="inner">
 						<ul class="contact">
 							<h2 class="major"><img src="./images/400dpiLogo.jpg" height="200" width="250"></h2>
@@ -369,10 +375,13 @@
 									<label for="message">Message</label>
 									<textarea name="message" id="message" rows="4"></textarea>
 								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
 							</div>
-							<ul class="actions">
+							<!-- <ul class="actions">
 								<li><input type="submit" value="Send Message" /></li>
-							</ul>
+							</ul> -->
 						</form>
 					</div>
 				</footer>
@@ -386,7 +395,7 @@
 			<script src="blue/assets/js/browser.min.js"></script>
 			<script src="blue/assets/js/breakpoints.min.js"></script>
 			<script src="blue/assets/js/util.js"></script>
-			<script src="blue/assets/js/main.js"></script>
+			<script src="blue/assets/js/main1.js"></script>
 
 	</body>
 </html>
