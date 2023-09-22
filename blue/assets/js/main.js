@@ -170,3 +170,15 @@
 // }
 // setInterval(rotateReviews, 10000);
 })(jQuery);
+const panels = document.querySelectorAll('.panel');
+panels.forEach((panels)=>{
+	panels.addEventListener('mouseover', () =>{
+		removeActiveClass()
+		panels.classList.add('active')
+	})
+})
+function removeActiveClass(){
+	panels.forEach(panels =>{
+		panels.classList.remove('active')
+	})
+}
