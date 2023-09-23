@@ -170,7 +170,7 @@
 // }
 // setInterval(rotateReviews, 10000);
 })(jQuery);
-const panels = document.querySelectorAll('.panel');
+const panels = document.querySelectorAll('.panel1');
 panels.forEach((panels)=>{
 	panels.addEventListener('mouseover', () =>{
 		removeActiveClass()

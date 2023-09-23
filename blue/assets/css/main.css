@@ -646,7 +646,7 @@ input, select, textarea {
 			padding-right: 10%;
 	
 		}
-		.panel{
+		.panel1{
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -910,7 +910,7 @@ input, select, textarea {
 				padding-left: 20%;
 		
 			}
-			.panel{
+			.panel1{
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -1173,7 +1173,7 @@ input, select, textarea {
 				padding-right: 10%;
 		
 			}
-			.panel{
+			.panel1{
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -1437,7 +1437,7 @@ input, select, textarea {
 			padding-right: 10%;
 	
 		}
-		.panel{
+		.panel1{
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -1705,7 +1705,7 @@ input, select, textarea {
 			padding-top: 50%;
 	
 		}
-		.panel{
+		.panel1{
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -2515,10 +2515,10 @@ input, select, textarea {
 			-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56); 
 			box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
 		} */
-		.panel:hover #overlay1, #overlay2, #overlay3{
+		.panel1:hover #overlay1, #overlay2, #overlay3{
 			opacity: .75;
 		}
-		.panel.active:hover{
+		.panel1.active:hover{
 			-webkit-box-shadow: 5px 5px 15px 3px #4c82c2; 
 			box-shadow: 5px 5px 15px 3px #4c82c2;
 		}
