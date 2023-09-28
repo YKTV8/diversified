@@ -2516,11 +2516,13 @@ input, select, textarea {
 			box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
 		} */
 		.panel1:hover #overlay1, #overlay2, #overlay3{
-			opacity: .75;
+			opacity: .95;
+			
 		}
 		.panel1.active:hover{
 			-webkit-box-shadow: 5px 5px 15px 3px #4c82c2; 
 			box-shadow: 5px 5px 15px 3px #4c82c2;
+	
 		}
 		#overlay1 a{
 			display: flex;
