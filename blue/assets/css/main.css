@@ -644,7 +644,6 @@ input, select, textarea {
 			height: 180vh;
 			width: 70vw;
 			padding-right: 10%;
-	
 		}
 		.panel1{
 			background-position: center;
@@ -655,6 +654,28 @@ input, select, textarea {
 			cursor: pointer;
 			-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56); 
 			box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
+		}
+		/* overlay for homeowners.html******************** */
+		.panel1:hover #overlay1{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 45%;
+			margin-right: 45%;
+			margin-top: 15%;
+		}
+		.panel1:hover #overlay2{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 45%;
+			margin-right: 45%;
+			margin-top: 15%;
+		}
+		.panel1:hover #overlay3{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 45%;
+			margin-right: 45%;
+			margin-top: 15%;
 		}
 
 			.row {
@@ -908,7 +929,6 @@ input, select, textarea {
 				height: 180vh;
 				width: 70vw;
 				padding-left: 20%;
-		
 			}
 			.panel1{
 				background-position: center;
@@ -919,6 +939,28 @@ input, select, textarea {
 				cursor: pointer;
 				-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56); 
 				box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
+			}
+			/* overlay for homeowners.html */
+			.panel1:hover #overlay1{
+				opacity: .95;
+				background-color: #3b3b3b;
+				margin-left: 40%;
+				margin-right: 40%;
+				margin-top: 15%;
+			}
+			.panel1:hover #overlay2{
+				opacity: .95;
+				background-color: #3b3b3b;
+				margin-left: 40%;
+				margin-right: 40%;
+				margin-top: 15%;
+			}
+			.panel1:hover #overlay3{
+				opacity: .95;
+				background-color: #3b3b3b;
+				margin-left: 40%;
+				margin-right: 40%;
+				margin-top: 15%;
 			}
 			.row {
 				display: flex;
@@ -1171,7 +1213,6 @@ input, select, textarea {
 				height: 180vh;
 				width: 70vw;
 				padding-right: 10%;
-		
 			}
 			.panel1{
 				background-position: center;
@@ -1182,6 +1223,28 @@ input, select, textarea {
 				cursor: pointer;
 				-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56); 
 				box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
+			}
+			/* overlay for homeowners.html ********************* */
+			.panel1:hover #overlay1{
+				opacity: .95;
+				background-color: #3b3b3b;
+				margin-left: 40%;
+				margin-right: 40%;
+				margin-top: 15%;
+			}
+			.panel1:hover #overlay2{
+				opacity: .95;
+				background-color: #3b3b3b;
+				margin-left: 40%;
+				margin-right: 40%;
+				margin-top: 15%;
+			}
+			.panel1:hover #overlay3{
+				opacity: .95;
+				background-color: #3b3b3b;
+				margin-left: 40%;
+				margin-right: 40%;
+				margin-top: 15%;
 			}
 			.row {
 				display: flex;
@@ -1447,6 +1510,28 @@ input, select, textarea {
 			cursor: pointer;
 			-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56); 
 			box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
+		}
+		/* overlay for homeowners.html ********************** */
+		.panel1:hover #overlay1{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 40%;
+			margin-right: 40%;
+			margin-top: 15%;
+		}
+		.panel1:hover #overlay2{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 40%;
+			margin-right: 40%;
+			margin-top: 15%;
+		}
+		.panel1:hover #overlay3{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 40%;
+			margin-right: 40%;
+			margin-top: 15%;
 		}
 
 			.row {
@@ -1716,7 +1801,28 @@ input, select, textarea {
 			-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56); 
 			box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
 		}
-
+		/* overlay for homeowners.html ************************ */
+		.panel1:hover #overlay1{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 15%;
+		}
+		.panel1:hover #overlay2{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 15%;
+		}
+		.panel1:hover #overlay3{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 15%;
+		}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1959,6 +2065,7 @@ input, select, textarea {
 						}
 
 		}
+
 
 /* Box */
 
@@ -2515,10 +2622,27 @@ input, select, textarea {
 			-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56); 
 			box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.56);
 		} */
-		.panel1:hover #overlay1, #overlay2, #overlay3{
+		/* .panel1:hover #overlay1{
 			opacity: .95;
-			
+			background-color: #3b3b3b;
+			margin-left: 45%;
+			margin-right: 45%;
+			margin-top: 15%;
 		}
+		.panel1:hover #overlay2{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 45%;
+			margin-right: 45%;
+			margin-top: 15%;
+		}
+		.panel1:hover #overlay3{
+			opacity: .95;
+			background-color: #3b3b3b;
+			margin-left: 45%;
+			margin-right: 45%;
+			margin-top: 15%;
+		} */
 		.panel1.active:hover{
 			-webkit-box-shadow: 5px 5px 15px 3px #4c82c2; 
 			box-shadow: 5px 5px 15px 3px #4c82c2;
@@ -2528,31 +2652,57 @@ input, select, textarea {
 			display: flex;
 			justify-content: center;
 			color: #fff;
-			text-align: center;
 			font-size: 170%;
 			font-weight: 900;
 			border-bottom: none;
-			padding-top: 15%;
+			/* padding-top: 15%; */
+			margin-top: 15%;
+			/* height: min-content;
+			width: min-content; */
+			/* background-color: #3b3b3b; */
 		}
 		#overlay2 a{
 			display: flex;
 			justify-content: center;
 			color: #fff;
-			text-align: center;
 			font-size: 170%;
 			font-weight: 900;
 			border-bottom: none;
-			padding-top: 15%;
-		}
-		#overlay3 a{
-			display: flex;
+			/* padding-top: 15%; */
+			margin-top: 15%;
+			/* height: min-content;
+			width: min-content; */
+			/* background-color: #3b3b3b; */
+			/* display: flex;
 			justify-content: center;
 			color: #fff;
 			text-align: center;
 			font-size: 170%;
 			font-weight: 900;
 			border-bottom: none;
-			padding-top: 15%;
+			padding-top: 15%; */
+		}
+		#overlay3 a{
+			display: flex;
+			justify-content: center;
+			color: #fff;
+			font-size: 170%;
+			font-weight: 900;
+			border-bottom: none;
+			/* padding-top: 15%; */
+			margin-top: 15%;
+			/* height: min-content;
+			width: min-content; */
+			/* background-color: #3b3b3b; */
+			/* ****************** */
+			/* display: flex;
+			justify-content: center;
+			color: #fff;
+			text-align: center;
+			font-size: 170%;
+			font-weight: 900;
+			border-bottom: none;
+			padding-top: 15%; */
 		}
 /* List */
 
@@ -3001,7 +3151,7 @@ input, select, textarea {
 				.spotlight > ul:last-child {
 					margin-left: 0;
 				}
-				#overlay1{
+				/* #overlay1{
 					margin: 5%;
 					width: 20em;
 					height: 20em;
@@ -3015,10 +3165,10 @@ input, select, textarea {
 				#overlay3{
 					margin: 5%;
 					width: 20em;
-					height: 20em;
+					height: 20em; */
 					
 				}
-		}
+		
 
 /* Posts */
 
