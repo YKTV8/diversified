@@ -32,7 +32,7 @@
 									<li>
 										<a href="#" class="icon solid fa-angle-down">Our Clients</a>
 										<ul>
-											<li><a href="./homeowners.html">Home Renovations</a></li>
+											<!-- <li><a href="./homeowners.html">Home Renovations</a></li> -->
 											<li>
 												<a href="#">Public Works</a>
 												<ul>
@@ -49,7 +49,7 @@
 											</li>
 										</ul>
 									</li>
-									<li><a href="aboutUs.html">Meet the Team</a></li>
+									<li><a href="aboutUs.html">About Us</a></li>
 									<!-- <li><a href="elements.html">Services</a> -->
 										<li>
 											<a href="#" class="icon solid fa-angle-down">Services</a>
@@ -149,30 +149,17 @@
 
 				<!-- Footer -->
 				<footer id="footer">
-					<div class="inner">
-						<ul class="contact">
-							<h2 class="major"><img src="./images/400dpiLogo.jpg" height="200" width="250"></h2>
-								Diversified Holdings NW, LLC<br />
-								9811 193rd Ave Ct E<br />
-								Bonney Lake, Wa 98391
-							</li>
-							<li class="icon solid fa-phone">253-312-7350</li>
-							<li class="icon solid fa-envelope"><a href="mailto:mwebb@diversifiedholdingsnw.com"> mwebb@diversifiedholdingsnw.com</a></li>
-							<li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/profile.php?id=100090545092745" target="_blank"> Facebook</a></li>
-							<li class="icon brands fa-instagram"><a href="#"> instagram.com/untitled-tld</a></li>
-							<!-- Break -->
-							<!-- <br>
-							<br>
-							<br> -->
-							<br>
-							<li>&copy; Diversified Holdings NW LLC. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by: &copy; Chae & Marie Solutions LLC 2023</li>
-						</ul>
-						<!-- <p>Curious about our services? Your questions matter! Feel free to connect with us. We're ready to provide answers and support.</p> -->
-						<form method="post" action="#">
+					<!-- hidden submit form unless in viewport 981px or less -- mobile view -->
+					<div id="hiddenform">
+						<form method="post-hidden" action="#">
 							<div class="fields">
 								<div class="field">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="name">Phone</label>
+									<input type="text" name="phone" id="phone" />
 								</div>
 								<div class="field">
 									<label for="email">Email</label>
@@ -183,35 +170,106 @@
 								<div class="col-12">
 									<select name="demo-category" id="demo-category">
 										<option value="">- Category -</option>
-										<option value="1">Renovations</option>
-										<option value="1">Public works</option>
-										<option value="1">Quotes/Estimates</option>
-										<option value="1">Reviews</option>
+											<option value="1">Dry Utilities</option>
+											<option value="1">Wet Utilities</option>
+											<option value="1">Excavation</option>
+											<option value="1">Grading</option>
+											<option value="1">Demo</option>
+											<option value="1">Concrete</option>
+											<option value="1">Public Works</option>
+											<!-- <option value="1">Quotes/Estimates</option> -->
+											<option value="1">Reviews</option>
 									</select>
 								</div>
 								<div class="field">
 									<label for="message">Message</label>
 									<textarea name="message" id="message" rows="4"></textarea>
 								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
 							</div>
-							<ul class="actions">
+							<!-- <ul class="actions">
 								<li><input type="submit" value="Send Message" /></li>
-							</ul>
+							</ul> -->
 						</form>
+						<!-- end -->
 					</div>
-				</footer>
-			</div>
-
-		<!-- Scripts -->
-			<script src="blue/assets/js/jquery.min.js"></script>
-			<script src="blue/assets/js/jquery.dropotron.min.js"></script>
-			<script src="blue/assets/js/jquery.selectorr.min.js"></script>
-			<script src="blue/assets/js/jquery.scrollex.min.js"></script>
-			<script src="blue/assets/js/jquery.scrolly.min.js"></script>
-			<script src="blue/assets/js/browser.min.js"></script>
-			<script src="blue/assets/js/breakpoints.min.js"></script>
-			<script src="blue/assets/js/util.js"></script>
-			<script src="blue/assets/js/main.js"></script>
-
-	</body>
-</html>
+					
+						<div class="inner">
+							<ul class="contact">
+								<h2 class="major"><img src="./images/400dpiLogo.jpg" height="200" width="250" alt="company logo"></h2>
+									Diversified Holdings NW, LLC<br />
+									9811 193rd Ave Ct E<br />
+									Bonney Lake, Wa 98391
+								</li>
+								<li class="icon solid fa-phone">253-312-7350</li>
+								<li class="icon solid fa-envelope"><a href="mailto:mwebb@diversifiedholdingsnw.com"> mwebb@diversifiedholdingsnw.com</a></li>
+								<li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/profile.php?id=100090545092745" target="_blank" aria-label="Open Facebook in a new tab"> Facebook</a></li>
+								<li class="icon brands fa-instagram"><a href="#" role="button" tabindex="0"> instagram.com/untitled-tld</a></li>
+								<!-- Break -->
+								<!-- <br>
+								<br>
+								<br> -->
+								<br>
+								<li>&copy; Diversified Holdings NW LLC. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by: &copy; Chae & Marie Solutions LLC 2023</li>
+							</ul>
+							<!-- <p>Curious about our services? Your questions matter! Feel free to connect with us. We're ready to provide answers and support.</p> -->
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="name">Phone</label>
+										<input type="text" name="phone" id="phone" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<!-- Break -->
+									<br>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Dry Utilities</option>
+											<option value="1">Wet Utilities</option>
+											<option value="1">Excavation</option>
+											<option value="1">Grading</option>
+											<option value="1">Demo</option>
+											<option value="1">Concrete</option>
+											<option value="1">Public Works</option>
+											<!-- <option value="1">Quotes/Estimates</option> -->
+											<option value="1">Reviews</option>
+										</select>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+								</div>
+								<!-- <ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul> -->
+							</form>
+						</div>
+					</footer>
+				</div>
+			<!-- Scripts -->
+				<script src="blue/assets/js/jquery.min.js"></script>
+				<script src="blue/assets/js/jquery.dropotron.min.js"></script>
+				<script src="blue/assets/js/jquery.selectorr.min.js"></script>
+				<script src="blue/assets/js/jquery.scrollex.min.js"></script>
+				<script src="blue/assets/js/jquery.scrolly.min.js"></script>
+				<script src="blue/assets/js/browser.min.js"></script>
+				<script src="blue/assets/js/breakpoints.min.js"></script>
+				<script src="blue/assets/js/util.js"></script>
+				<script src="blue/assets/js/main1.js"></script>
+	
+		</body>
+	</html>
