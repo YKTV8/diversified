@@ -3577,7 +3577,7 @@ input, select, textarea {
 		}
 		/* For logo placement on nav bar */
 		#header > .logo img{
-			margin-top: -16%;
+			margin-top: -8%;
 		}
 		#header > .logo {
 			position: absolute;
@@ -3705,6 +3705,9 @@ input, select, textarea {
 			-ms-animation: reveal-header 0.5s ease;
 			animation: reveal-header 0.5s ease;
 		}
+		#header.reveal > .logo img{
+			margin-top: -5%;
+		}
 
 		#header.alt {
 			-moz-animation: none;
@@ -3717,7 +3720,7 @@ input, select, textarea {
 		}
 
 			#header.alt > .logo {
-				top: 1rem;
+				top: 0.25rem;
 				left: 2rem;
 			}
 
