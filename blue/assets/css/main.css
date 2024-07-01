@@ -3827,7 +3827,13 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		cursor: default;
-	}
+		background-image: url(/images/IMG_7718.JPG);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-bottom: 25%;
+		/* background: #000000ad; */
+	}	
 
 		#banner:after {
 			animation: myBanner 5s infinite;
@@ -3891,7 +3897,9 @@ input, select, textarea {
 		#banner header h1, h2{
 			/* background-color: #00000a79; */
 			color: #fff;
+			/* background: #000000ad; */
 			z-index: 2;
+			/* margin: 0 10.95% 0 10.95%; */
 		}
 		#banner header p {
 			margin-bottom: 2rem;
@@ -3903,6 +3911,7 @@ input, select, textarea {
 			text-align: center;
 			position: relative;
 			z-index: 1;
+			background: #0000004a;
 		}
 
 			#banner .content.primary {
