@@ -3715,7 +3715,7 @@ input, select, textarea {
 			-ms-animation: none;
 			animation: none;
 			box-shadow: none;
-			background-color: transparent;
+			background-color: #fff;
 			position: absolute;
 		}
 
@@ -3830,7 +3830,7 @@ input, select, textarea {
 		background-image: url(/images/IMG_7718.JPG);
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: contain;
+		background-size: cover;
 		margin-bottom: 25%;
 		/* background: #000000ad; */
 	}	
@@ -3897,6 +3897,7 @@ input, select, textarea {
 		#banner header h1, h2{
 			/* background-color: #00000a79; */
 			color: #fff;
+			font-weight: 500;
 			/* background: #000000ad; */
 			z-index: 2;
 			/* margin: 0 10.95% 0 10.95%; */
@@ -3911,7 +3912,7 @@ input, select, textarea {
 			text-align: center;
 			position: relative;
 			z-index: 1;
-			background: #0000004a;
+			background: #000000b0;
 		}
 
 			#banner .content.primary {
@@ -5060,7 +5061,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .main.alt {
-			background-color: #f7f7f7;
+			background-color: #4c82c2;
 		}
 
 	@media screen and (max-width: 1280px) {
