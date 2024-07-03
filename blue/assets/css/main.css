@@ -2213,7 +2213,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 3px #fff;
-		color: #000 !important;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2589,11 +2589,12 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 3rem 0;
 			width: 100%;
-			background-image: url(/images/homeowners.jpg);
 		}
 
 			.image.main img {
 				width: 100%;
+				margin-top: 5%;
+				padding: 0 5%;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3828,10 +3829,10 @@ input, select, textarea {
 		position: relative;
 		cursor: default;
 		background-image: url(/images/IMG_7718.JPG);
-		background-position: center;
+		background-position: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
-		margin-bottom: 25%;
+		/* margin-bottom: 25%; */
 		/* background: #000000ad; */
 	}	
 
