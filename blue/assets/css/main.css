@@ -2213,7 +2213,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 3px #fff;
-		color: #3b3b3b !important;
+		color: #cbcbcb !important;
 	}
 
 		input[type="submit"]:hover,
